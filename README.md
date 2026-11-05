@@ -38,10 +38,11 @@ Alles stel je in via de Home Assistant-interface; je hoeft nooit YAML-bestanden 
 
 #### HACS (aanbevolen)
 
-1. Open HACS → **Integraties** → drie-puntjesmenu → **Aangepaste repositories**.
-2. Voeg `https://github.com/Anonymouse0104/ha-brandweerrooster` toe als **Integratie**.
-3. Installeer **Brandweerrooster API** en herstart Home Assistant.
-4. Ga naar **Instellingen → Apparaten en services → Integratie toevoegen** en zoek **Brandweerrooster API**.
+1. Open **HACS** en zoek **Brandweerrooster API** (of klik op de knop *Open in HACS* bovenaan).
+2. Klik op **Downloaden** en herstart Home Assistant.
+3. Ga naar **Instellingen → Apparaten en services → Integratie toevoegen** en zoek **Brandweerrooster API**.
+
+Vind je de integratie niet in HACS (bijvoorbeeld met een oudere HACS-versie)? Voeg dan eerst de repository toe: HACS → drie-puntjesmenu → **Aangepaste repositories** → `https://github.com/Anonymouse0104/ha-brandweerrooster` als **Integratie**, en ga verder met stap 1.
 
 #### Handmatig
 
@@ -273,10 +274,11 @@ Everything is configured from the Home Assistant UI — you never have to create
 
 #### HACS (recommended)
 
-1. Open HACS → **Integrations** → three-dot menu → **Custom repositories**.
-2. Add `https://github.com/Anonymouse0104/ha-brandweerrooster` as an **Integration**.
-3. Install **Brandweerrooster API** and restart Home Assistant.
-4. Go to **Settings → Devices & services → Add integration** and search for **Brandweerrooster API**.
+1. Open **HACS** and search for **Brandweerrooster API** (or use the *Open in HACS* button at the top).
+2. Click **Download** and restart Home Assistant.
+3. Go to **Settings → Devices & services → Add integration** and search for **Brandweerrooster API**.
+
+Can't find it in HACS (for example with an older HACS version)? Add the repository first: HACS → three-dot menu → **Custom repositories** → `https://github.com/Anonymouse0104/ha-brandweerrooster` as an **Integration**, then continue with step 1.
 
 #### Manual
 
