@@ -4,7 +4,7 @@
 
 # Brandweerrooster API
 
-[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Anonymouse0104&repository=ha-brandweerrooster&category=integration) [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/anonymouse0501)
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=anonymouse-labs&repository=ha-brandweerrooster&category=integration) [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/anonymouse0501)
 
 [Nederlands](#nederlands) | [English](#english)
 
@@ -42,7 +42,7 @@ Alles stel je in via de Home Assistant-interface; je hoeft nooit YAML-bestanden 
 2. Klik op **Downloaden** en herstart Home Assistant.
 3. Ga naar **Instellingen → Apparaten en services → Integratie toevoegen** en zoek **Brandweerrooster API**.
 
-Vind je de integratie niet in HACS (bijvoorbeeld met een oudere HACS-versie)? Voeg dan eerst de repository toe: HACS → drie-puntjesmenu → **Aangepaste repositories** → `https://github.com/Anonymouse0104/ha-brandweerrooster` als **Integratie**, en ga verder met stap 1.
+Vind je de integratie niet in HACS (bijvoorbeeld met een oudere HACS-versie)? Voeg dan eerst de repository toe: HACS → drie-puntjesmenu → **Aangepaste repositories** → `https://github.com/anonymouse-labs/ha-brandweerrooster` als **Integratie**, en ga verder met stap 1.
 
 #### Handmatig
 
@@ -155,7 +155,7 @@ Klik op een blueprint → **Automatisering maken**, kies je functie(s) en telefo
 
 #### Het alarm naar WhatsApp sturen
 
-Wil je dat de bemanning of een familiegroep het alarm in WhatsApp krijgt? [WhatsApp Notifier](https://github.com/Anonymouse0104/ha-whatsapp-notifier) stuurt berichten vanuit Home Assistant naar een persoon of groep, zonder externe dienst. Gebruik de notify-entiteit als telefoon/doel in de blueprints, of roep `whatsapp_notifier.send_message` aan met de tekst van `brandweerrooster.generate_message`.
+Wil je dat de bemanning of een familiegroep het alarm in WhatsApp krijgt? [WhatsApp Notifier](https://github.com/anonymouse-labs/ha-whatsapp-notifier) stuurt berichten vanuit Home Assistant naar een persoon of groep, zonder externe dienst. Gebruik de notify-entiteit als telefoon/doel in de blueprints, of roep `whatsapp_notifier.send_message` aan met de tekst van `brandweerrooster.generate_message`.
 
 ### Facebook-uitrukbericht
 
@@ -221,7 +221,7 @@ Brandbase wordt netjes bevraagd: alleen voor regio's die in je incidenten voorko
 - **Een incident verschijnt bij de verkeerde functie (of geen)**: vergelijk `group_ids`/`task_ids` van *Laatste incident* met de groepen/taken van de functie, of kijk naar `voorbeelden_niet_relevant` in `historie_samenvatting`.
 - **Statistieken kloppen niet**: controleer *Hoe wordt een uitruk geteld?* en druk op **Statistieken opnieuw synchroniseren**.
 - **Bezetting is leeg**: Brandweerrooster heeft misschien nog niemand ingedeeld; de integratie blijft 20 minuten controleren. Gebruik **Incident verversen** om het nog één keer op te halen.
-- **Een bug melden**: voeg het bestand van **Diagnostiek downloaden** (afgeschermd) toe aan een issue op <https://github.com/Anonymouse0104/ha-brandweerrooster/issues>.
+- **Een bug melden**: voeg het bestand van **Diagnostiek downloaden** (afgeschermd) toe aan een issue op <https://github.com/anonymouse-labs/ha-brandweerrooster/issues>.
 
 ### Ontwikkeling
 
@@ -278,7 +278,7 @@ Everything is configured from the Home Assistant UI — you never have to create
 2. Click **Download** and restart Home Assistant.
 3. Go to **Settings → Devices & services → Add integration** and search for **Brandweerrooster API**.
 
-Can't find it in HACS (for example with an older HACS version)? Add the repository first: HACS → three-dot menu → **Custom repositories** → `https://github.com/Anonymouse0104/ha-brandweerrooster` as an **Integration**, then continue with step 1.
+Can't find it in HACS (for example with an older HACS version)? Add the repository first: HACS → three-dot menu → **Custom repositories** → `https://github.com/anonymouse-labs/ha-brandweerrooster` as an **Integration**, then continue with step 1.
 
 #### Manual
 
@@ -391,7 +391,7 @@ Click a blueprint → **Create automation**, pick your function(s) and phone/lig
 
 #### Send the alert to WhatsApp
 
-Want the crew or a family group to get the alert in WhatsApp? [WhatsApp Notifier](https://github.com/Anonymouse0104/ha-whatsapp-notifier) sends messages from Home Assistant to a person or group without a third-party service. Use its notify entity as the phone/target in the blueprints, or call `whatsapp_notifier.send_message` with the text from `brandweerrooster.generate_message`.
+Want the crew or a family group to get the alert in WhatsApp? [WhatsApp Notifier](https://github.com/anonymouse-labs/ha-whatsapp-notifier) sends messages from Home Assistant to a person or group without a third-party service. Use its notify entity as the phone/target in the blueprints, or call `whatsapp_notifier.send_message` with the text from `brandweerrooster.generate_message`.
 
 ### Facebook dispatch message
 
@@ -457,7 +457,7 @@ Brandbase is queried politely: only for regions that appear in your incidents, a
 - **An incident appears under the wrong function (or none)**: compare `group_ids`/`task_ids` of *Laatste incident* with the function's groups/tasks, or look at `voorbeelden_niet_relevant` in `historie_samenvatting`.
 - **Statistics look wrong**: check *How is a turnout counted?* and press **Statistieken opnieuw synchroniseren**.
 - **Crew is empty**: Brandweerrooster may not have assigned anyone yet; the integration keeps checking for 20 minutes. Use **Incident verversen** to fetch it once more.
-- **Report a bug**: attach the **Download diagnostics** file (it is redacted) to an issue at <https://github.com/Anonymouse0104/ha-brandweerrooster/issues>.
+- **Report a bug**: attach the **Download diagnostics** file (it is redacted) to an issue at <https://github.com/anonymouse-labs/ha-brandweerrooster/issues>.
 
 ### Development
 

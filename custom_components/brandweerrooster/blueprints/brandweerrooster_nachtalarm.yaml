@@ -8,7 +8,7 @@ blueprint:
     vertrekken. Optioneel voer je daarna nog eigen acties uit (bijvoorbeeld
     gordijnen open of de garagedeur).
   domain: automation
-  source_url: https://github.com/Anonymouse0104/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_nachtalarm.yaml
+  source_url: https://github.com/anonymouse-labs/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_nachtalarm.yaml
   input:
     incident_event:
       name: Functie(s)

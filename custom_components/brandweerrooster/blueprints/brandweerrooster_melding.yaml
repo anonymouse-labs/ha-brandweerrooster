@@ -7,7 +7,7 @@ blueprint:
     Stuurt een pushmelding naar je telefoon zodra Brandweerrooster een nieuw
     incident meldt, met melding, locatie, prioriteit en afstand.
   domain: automation
-  source_url: https://github.com/Anonymouse0104/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_melding.yaml
+  source_url: https://github.com/anonymouse-labs/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_melding.yaml
   input:
     incident_event:
       name: Functie(s)

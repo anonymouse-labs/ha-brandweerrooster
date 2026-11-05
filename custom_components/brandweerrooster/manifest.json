@@ -3,14 +3,14 @@
   "name": "Brandweerrooster API",
   "after_dependencies": ["fireservicerota"],
   "codeowners": [
-    "@Anonymouse0104"
+    "@anonymouse-labs"
   ],
   "config_flow": true,
   "dependencies": ["diagnostics"],
-  "documentation": "https://github.com/Anonymouse0104/ha-brandweerrooster",
+  "documentation": "https://github.com/anonymouse-labs/ha-brandweerrooster",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/Anonymouse0104/ha-brandweerrooster/issues",
+  "issue_tracker": "https://github.com/anonymouse-labs/ha-brandweerrooster/issues",
   "requirements": [],
   "version": "1.5.4"
 }

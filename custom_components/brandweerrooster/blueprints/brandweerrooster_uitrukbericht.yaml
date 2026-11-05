@@ -8,7 +8,7 @@ blueprint:
     je telefoon, zodat je het meteen kunt kopiëren en plaatsen. De tekst stel
     je in bij de integratie-opties.
   domain: automation
-  source_url: https://github.com/Anonymouse0104/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_uitrukbericht.yaml
+  source_url: https://github.com/anonymouse-labs/ha-brandweerrooster/blob/main/custom_components/brandweerrooster/blueprints/brandweerrooster_uitrukbericht.yaml
   input:
     incident_event:
       name: Functie(s)
